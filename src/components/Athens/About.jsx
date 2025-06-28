@@ -1,4 +1,3 @@
-import './funnel.css'
 
 const About = () => {
     return (

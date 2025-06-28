@@ -1,5 +1,4 @@
 import {Link} from 'react-router-dom'
-import './funnel.css'
 
 const Hero = () => {
     return (
