@@ -1,4 +1,3 @@
-import './funnel.css';
 import { useEffect } from 'react';
 import Hero from './Hero';
 import About from './About';
@@ -16,7 +15,6 @@ const Athens = () => {
 
     return (
         <>
-            <div className="athens">
                 <Hero />
                 <About />
                 <Service />
@@ -24,7 +22,6 @@ const Athens = () => {
                 <Offer />
                 <Testimonials />
                 <Footer />
-            </div>
         </>
     )
 }

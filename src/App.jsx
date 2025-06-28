@@ -1,8 +1,7 @@
-import Main from "./components/Main";
+import Athens from "./components/Athens/Athens";
 import ThemeProvider from "./utils/ThemeContext";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
-import './index.css';
 
 function App() {
   return (
@@ -10,7 +9,7 @@ function App() {
       <ThemeProvider>
         <Router>
           <Routes>
-            <Route path="/" element={<Main />} />
+            <Route path="/" element={<Athens />} />
           </Routes>
         </Router>
       </ThemeProvider>
